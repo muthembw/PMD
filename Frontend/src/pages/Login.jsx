@@ -15,7 +15,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:8000/api/user/login", form);
+      const res = await axios.post("https://pmd-backend.onrender.com", form);
       const { token, name, email, _id } = res.data;
 
       // ✅ Save token and user to localStorage
