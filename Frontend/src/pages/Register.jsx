@@ -17,14 +17,13 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      // Make the registration request
+      
       const res = await api.post("https://pmd-backend.onrender.com", form);
       
       // Store user data in localStorage and set it in context
       localStorage.setItem("user", JSON.stringify(res.data));
       setUser(res.data);
       
-      // Redirect to homepage or other desired location after successful registration
       navigate("/");
 
     } catch (err) {

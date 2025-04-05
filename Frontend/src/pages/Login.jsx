@@ -1,11 +1,11 @@
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
 import { useState, useContext } from 'react';
-import axios from '../api/localApi'; // ✅ Import axios
+import axios from '../api/localApi';
 
 const Login = () => {
   const [form, setForm] = useState({ email: "", password: "" });
-  const { setUser, setToken } = useContext(AuthContext); // ✅ Include setToken
+  const { setUser, setToken } = useContext(AuthContext);
   const navigate = useNavigate();
 
   const handleChange = (e) => {
