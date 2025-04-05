@@ -19,7 +19,7 @@ A full-stack Product Management Dashboard for managing products, orders, and rep
 
 | Frontend         | Backend         | Database        |
 |------------------|------------------|------------------|
-| React + Tailwind CSS | Node.js + Express.js | MongoDB (Atlas) |
+| React + Tailwind CSS | Node.js + Express.js | MongoDB (Compass) |
 
 Other tools:
 - Axios for API calls
@@ -102,16 +102,9 @@ product-dashboard/
 ├── package.json
 └── vite.config.js
 
-Screenshots:
-![Dashboard:](https://github.com/user-attachments/assets/86652ef5-5ee4-4b04-af5d-453268d24b6f)
-Products:
-![image](https://github.com/user-attachments/assets/493b3a62-cdbc-4a74-96c2-0a2c23621c0f)
-Orders:
-![image](https://github.com/user-attachments/assets/2a64a293-0c15-494d-ac29-ef99e0b2eee8)
-
 🙌 Author
 Bridget Masila
-Full-Stack Developer | CEO | Coffee-Loving Coder
+Full-Stack Developer | Coffee-Loving Coder
 📧 masilabridget6@gmail.com
 
 
