@@ -31,10 +31,7 @@ export default function Dashboard() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {products.map((product) => (
           <div key={product.id} className="border p-4 rounded-md hover:shadow-lg transition-shadow duration-300">
-            <img
-              src={product.image || "https://via.placeholder.com/150"} 
-              alt={product.title}
-              className="w-full h-48 object-cover mb-2"
+            <img src={product.thumbnail} alt={product.title} className="w-full h-48 object-cover mb-2"
             />
             <h3 className="font-semibold">{product.title}</h3>
             <p className="text-gray-600">{product.description}</p>
