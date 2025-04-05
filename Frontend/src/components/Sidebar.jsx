@@ -3,7 +3,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { Home, Box, ShoppingCart, FileText, Settings } from "lucide-react";
 import { AuthContext } from "../context/AuthContext"; // Import the AuthContext
 
-const Sidebar = () => {
+const SideBar = () => {
   const { user, setUser, setToken } = useContext(AuthContext); // Get user state from context
   const navigate = useNavigate();
 
@@ -83,4 +83,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default SideBar;
