@@ -18,7 +18,7 @@ const Register = () => {
     e.preventDefault();
     try {
       // Make the registration request
-      const res = await api.post("http://localhost:8000/api/user/register", form);
+      const res = await api.post("https://pmd-backend.onrender.com", form);
       
       // Store user data in localStorage and set it in context
       localStorage.setItem("user", JSON.stringify(res.data));
